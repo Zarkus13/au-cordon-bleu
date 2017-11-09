@@ -7,7 +7,6 @@ header {
     height: 175px;
     margin-left: auto;
     margin-right: auto;
-    background: red;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -16,8 +15,7 @@ header {
 header h1 {
     flex-grow: 1;
     margin: 0 20px;
-    background: blue;
-    color: white;
+    color: black;
 }
 
 header h1 span {
@@ -34,7 +32,6 @@ header nav ul {
 
 header nav li {
     padding: 0 20px;
-    background: yellow;
 }
 
 #slider {
@@ -51,8 +48,9 @@ header nav li {
     display: flex;
     align-items: center;
     text-align: center;
-    background: green;
-    border-right: 1px solid deeppink;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 #slider > div:last-child {
