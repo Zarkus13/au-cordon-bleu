@@ -1,0 +1,64 @@
+.clear {
+    clear: both;
+}
+
+header {
+    width: 1000px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    background: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header h1 {
+    flex-grow: 1;
+    margin: 0 20px;
+    background: blue;
+    color: white;
+}
+
+header h1 span {
+    display: block;
+    font-size: 0.8em;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+    list-style: none;
+}
+
+header nav li {
+    padding: 0 20px;
+    background: yellow;
+}
+
+#slider {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#slider > div {
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: green;
+    border-right: 1px solid deeppink;
+}
+
+#slider > div:last-child {
+    border-right: 0;
+}
+
+#slider > div > h3 {
+    flex-grow: 1;
+}
